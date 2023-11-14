@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    text-align: center;
+    margin: 50px auto;
+    width: 600px; /* Aumenta el ancho del contenedor */
+    background-color: #fff;
+    padding: 130px; /* Aumenta el espacio alrededor del contenido */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 46px; /* Aumenta el tamaño del título */
+    color: #0074d9;
+}
+
+#output {
+    font-size: 34px; /* Aumenta el tamaño del texto principal */
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#input {
+    
+    width: 170px; /* Aumenta el ancho del campo de entrada */
+    padding: 10px; /* Aumenta el espacio dentro del campo de entrada */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px; /* Aumenta el tamaño de fuente del campo de entrada */
+}
+
+#button {
+    padding: 10px 30px; /* Aumenta el tamaño del botón */
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px; /* Aumenta el tamaño de fuente del botón */
+    transition: background-color 0.3s;
+    height: 46px
+    ;
+}
+
+#button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
